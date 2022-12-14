@@ -9,6 +9,9 @@ export const Navbar = () => {
             <div>
                 <Link href="/products">Products</Link>
             </div>
+            <div>
+                <Link href="/user">User</Link>
+            </div>
         </div>
     )
 }
