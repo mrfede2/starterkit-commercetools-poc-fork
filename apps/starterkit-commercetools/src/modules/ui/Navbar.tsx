@@ -12,6 +12,9 @@ export const Navbar = () => {
             <div>
                 <Link href="/user">User</Link>
             </div>
+            <div>
+                <Link href="/cart">Cart</Link>
+            </div>
         </div>
     )
 }
