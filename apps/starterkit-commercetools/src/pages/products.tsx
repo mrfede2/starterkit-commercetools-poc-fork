@@ -1,5 +1,5 @@
 import {useState}from 'react'
-import { getProducts } from "commercetools"
+import { getProducts } from 'commercetools'
 
 export default function Home() {
   const [products, setProducts] = useState([])
