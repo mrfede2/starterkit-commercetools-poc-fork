@@ -1,7 +1,7 @@
 import {useState}from 'react'
 import { getProducts } from 'commercetools'
 
-export default function Home() {
+export default function Products() {
   const [products, setProducts] = useState([])
 
   const handleGetProducts = async () => {
