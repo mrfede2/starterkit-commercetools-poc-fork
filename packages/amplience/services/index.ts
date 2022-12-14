@@ -3,6 +3,8 @@ import { PAGE } from './mocks'
 export const getPage = async () => {
     // Mock a server call
     await mockAsyncWait()
+    console.log("something");
+    
     return PAGE
 }
 
