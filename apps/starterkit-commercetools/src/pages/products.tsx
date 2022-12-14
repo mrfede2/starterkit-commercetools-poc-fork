@@ -6,7 +6,6 @@ export default function Home() {
 
   const handleGetProducts = async () => {
     const _products = await getProducts()
-    console.log({_products});
     setProducts(_products)
   }
 
